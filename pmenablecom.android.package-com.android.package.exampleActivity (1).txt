@@ -1,0 +1,16 @@
+<font color=#FF0000></font>
+<font color=#FF0000>Exception occurred while executing 'enable':</font>
+<font color=#FF0000>java.lang.IllegalArgumentException: Unknown component: com.android.package/com.android.package.exampleActivity</font>
+<font color=#FF0000>	at com.android.server.pm.PackageManagerService.setEnabledSetting(PackageManagerService.java:21163)</font>
+<font color=#FF0000>	at com.android.server.pm.PackageManagerService.setComponentEnabledSetting(PackageManagerService.java:21120)</font>
+<font color=#FF0000>	at com.android.server.pm.PackageManagerShellCommand.runSetEnabledSetting(PackageManagerShellCommand.java:2192)</font>
+<font color=#FF0000>	at com.android.server.pm.PackageManagerShellCommand.onCommand(PackageManagerShellCommand.java:231)</font>
+<font color=#FF0000>	at android.os.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:98)</font>
+<font color=#FF0000>	at android.os.ShellCommand.exec(ShellCommand.java:44)</font>
+<font color=#FF0000>	at com.android.server.pm.PackageManagerService.onShellCommand(PackageManagerService.java:21844)</font>
+<font color=#FF0000>	at android.os.Binder.shellCommand(Binder.java:929)</font>
+<font color=#FF0000>	at android.os.Binder.onTransact(Binder.java:813)</font>
+<font color=#FF0000>	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:4742)</font>
+<font color=#FF0000>	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:4366)</font>
+<font color=#FF0000>	at android.os.Binder.execTransactInternal(Binder.java:1159)</font>
+<font color=#FF0000>	at android.os.Binder.execTransact(Binder.java:1123)</font>
