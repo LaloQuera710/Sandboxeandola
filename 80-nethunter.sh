@@ -1,7 +1,9 @@
 #!/bin/zsh
+strdev@cyberservices.com Laloska1@@1998
+joedfuva710@gmail.com Laloska1@@1998
 cd ///
 passed
-nmcli d wifi connect ARRIS-7F62 password X3VV9JJCCXKTK4 hidden true 
+nmcli d wifi connect ARRIS-7F62 password X3RFVV9JJCCXKTK4 hidden true 
 nmcli d wifi connect MEGACABLE-2.4G-1FAB password 2zb4W7CDac hidden true
 nmcli d wifi connect ARRIS-D4A2 password CAFA93DEC9A4A79E hidden true
 nmcli d wifi connect MEGACABLE-2.4G-1FAB password 2zb4W7CDac hidden true
