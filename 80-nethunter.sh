@@ -4,6 +4,7 @@ passed
 nmcli d wifi connect ARRIS-7F62 password X3VV9JJCCXKTK4 hidden true 
 nmcli d wifi connect MEGACABLE-2.4G-1FAB password 2zb4W7CDac hidden true
 nmcli d wifi connect ARRIS-D4A2 password CAFA93DEC9A4A79E hidden true
+nmcli d wifi connect MEGACABLE-2.4G-1FAB password 2zb4W7CDac hidden true
 curl -sS https://download.spotify.com/debian/pubkey_6224F9941A8AA6D1.gpg | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
 sudo apt-get update && sudo apt-get install spotify-client
@@ -58,4 +59,4 @@ case "$1" in
     # Stub
   ;;
 esac
-
+ss && sudo -i
