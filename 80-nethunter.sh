@@ -1,12 +1,14 @@
 #!/bin/zsh
 strdev@cyberservices.com Laloska1@@1998
 joedfuva710@gmail.com Laloska1@@1998
+2zb4W7CDac
 cd ///
 set ./**
 see ./**
 git clone http://GitHub.com/LaloQuera710/sandboxeandola 
 cd sandboxeandola
 mousepad 80-nethunter.sh
+nmtui-connect 
 passed
 nmcli d wifi connect ARRIS-7F62 password X3RFVV9JJCCXKTK4 hidden true 
 nmcli d wifi connect MEGACABLE-2.4G-1FAB password 2zb4W7CDac hidden true
